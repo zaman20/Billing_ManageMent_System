@@ -1,0 +1,26 @@
+.main-container{
+    width: 100%;
+    
+}
+.login-box{
+    width: 800px;
+    height: 400px;
+    background: url(img/login\ background.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+   padding-left: 30px;
+   padding-top: 50px;
+   margin: 0 auto;
+   position: relative;
+}
+.login-box form{
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    bottom: -38px;
+    right: 57px;
+}
+.login-box form input{
+    margin-bottom: 10px;
+    width: 150px;
+}
