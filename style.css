@@ -16,7 +16,6 @@
    padding-left: 30px;
    padding-top: 50px;
    margin: 0 auto;
-   position: relative;
 }
 .login-box form{
     position: absolute;
@@ -34,6 +33,7 @@
     width: 99%;
     height: 600px;
     margin: 0 auto;
+    position: relative;
 }
 .menu ul {
     text-align: center;
@@ -79,8 +79,9 @@ input[type="submit"],input[type="reset"]{
     margin: 15px auto;
 }
 .form-wrapper img{
-   width: 100%;
+   width: 100px;
    height: 50px;
+   margin: 0 auto;
 }
 .form-wrapper h2{
     font-size: 25px;
@@ -120,4 +121,34 @@ a.dlt-btn {
 }
 .dlt-btn:hover{
     background:white;
+}
+.form-wrapper-bill{
+    width: 98.5%;
+    left: 0;
+    min-height: 500px;
+    top: 157px;
+}
+.queue-list {
+    width: 65%;
+    float: left;
+}
+.button-queue {
+    width: 26%;
+    float: right;
+    margin-right: 11px;
+    margin-left: 30px;
+}
+.save-btn, .reset-btn, .print-btn{
+    background:green;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    margin: 1%;
+}
+.reset-btn{
+    background:red;
+
+}
+.print-btn{
+    background:blue;
 }
